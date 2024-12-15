@@ -75,7 +75,7 @@
 &trans  &kp TAB  &trans     &trans     &trans     &trans       &trans     &none     &kp F8     &kp F9     &kp F12  &trans
 &trans  &kp CAPS  &none     &trans  &trans     &trans       &trans     &none     &kp F5     &kp F6     &kp F11  &trans
 &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp DELETE     &trans  &trans       &trans     &none     &kp F2     &kp F3     &kp F10  &trans
-                           &trans     &mkp LCLK  &mkp RCLK    &trans  &trabs
+                           &trans     &mkp LCLK  &mkp RCLK    &trans  &trans
                                       &trans     &trans       &trans
             >;
 
