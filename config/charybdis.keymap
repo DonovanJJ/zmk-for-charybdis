@@ -18,6 +18,12 @@
             key-positions = <17 18>;
             layers = <0>;
         };
+
+        win_key_combo {
+            bindings = <&kp LGUI>;
+            timeout-ms = <50>;
+            key-positions = <40 41>;
+        } //B and V
     };
 
     keymap {
