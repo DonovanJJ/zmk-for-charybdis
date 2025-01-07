@@ -21,8 +21,8 @@
 
         win_key_combo {
             bindings = <&kp LGUI>;
-            key-positions = <40 41>;
-        }; //B and V
+            key-positions = <48 49>;
+        }; // LWIN and SPACE
     };
 
     keymap {
