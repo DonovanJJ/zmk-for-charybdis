@@ -21,7 +21,7 @@
 
         lalt_key_combo {
             bindings = <&kp LALT>;
-            key-SLASH = <44 45>;
+            key-positions = <44 45>;
         }; // COMMA and DOT
 
         win_key_combo {
