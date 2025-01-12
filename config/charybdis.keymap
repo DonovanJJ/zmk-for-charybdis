@@ -19,10 +19,15 @@
             layers = <0>;
         };
 
+        lalt_key_combo {
+            bindings = <&kp LALT>;
+            key-SLASH = <44 45>;
+        }; // COMMA and DOT
+
         win_key_combo {
             bindings = <&kp LGUI>;
             key-positions = <50 51>;
-        }; // LWIN and SPACE
+        }; // ENtER and LEFT_SHIFT
     };
 
     keymap {
