@@ -31,7 +31,7 @@
     };
 
     keymap {
-        compatible = "zmk,keymap";789789789-+57642yooooooooo
+        compatible = "zmk,keymap";
 
         Base {
             bindings = <
