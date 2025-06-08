@@ -31,7 +31,7 @@
     };
 
     keymap {
-        compatible = "zmk,keymap";
+        compatible = "zmk,keymap";789789789-+57642yooooooooo
 
         Base {
             bindings = <
@@ -60,7 +60,7 @@
         layer_2 {
             bindings = <
 &none        &none              &none                  &none                &none               &none             &none           &none           &none         &none         &none         &none
-&none        &kp GRAVE          &kp EXCLAMATION        &kp AT               &kp HASH            &kp DOLLAR        &kp LBRC        &kp RBRC        &trans        &none         &none         &trans
+&none        &kp GRAVE          &kp EXCLAMATION        &kp AT               &kp HASH            &kp DOLLAR        &kp LBRC        &kp RBRC        &kp APOS        &none         &none         &trans
 &none        &kp PERCENT        &kp CARET              &kp AMPERSAND        &kp ASTERISK        &none             &kp LBKT        &kp RBKT        &none         &trans        &trans        &trans
 &none        &none              &none                  &none                &none               &none             &kp LPAR        &kp RPAR        &none         &none         &none         &trans
                                          &none   &none     &none       &trans        &kp ENTER
