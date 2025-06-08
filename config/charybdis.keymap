@@ -48,10 +48,10 @@
 
         layer_1 {
             bindings = <
-&kp TILDE               &kp EXCLAMATION     &kp HASH      &kp DOLLAR    &kp DOLLAR    &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&kp GRAVE               &kp NUMBER_1        &kp NUMBER_2        &kp NUMBER_3        &kp NUMBER_4        &kp NUMBER_5        &kp NUMBER_6        &kp NUMBER_7        &kp NUMBER_8        &kp NUMBER_9        &kp NUMBER_0        &kp DEL
-&kp LEFT_CONTROL        &none        &none        &none        &kp MINUS        &kp PLUS        &kp SLASH        &kp STAR        &none        &none        &none        &kp PAGE_UP
-&kp LSHFT               &none        &none        &none       &kp EQUAL        &kp DOT         &none        &none        &none        &none        &none        &kp PAGE_DOWN
+&kp TILDE               &kp EXCLAMATION     &kp HASH      &kp DOLLAR    &kp DOLLAR       &kp PERCENT     &kp CARET       &kp AMPERSAND   &kp ASTERISK        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&kp GRAVE               &kp NUMBER_1        &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8        &kp NUMBER_9          &kp NUMBER_0           &kp DEL
+&kp LEFT_CONTROL        &none               &none         &none         &kp MINUS        &kp PLUS        &kp SLASH       &kp STAR        &none               &none                 &none                  &kp PAGE_UP
+&kp LSHFT               &none               &none         &none         &kp EQUAL        &kp DOT         &none           &none           &none               &none                 &none                  &kp PAGE_DOWN
                                                  &kp NUMBER_0  &kp ENTER        &kp BACKSPACE         &trans  &none
                                                                &none         &none          &trans
             >;
@@ -60,7 +60,7 @@
         layer_2 {
             bindings = <
 &none        &none              &none                  &none                &none               &none             &none           &none           &none         &none         &none         &none
-&none        &kp GRAVE          &kp EXCLAMATION        &kp AT               &kp HASH            &kp DOLLAR        &kp LBRC        &kp RBRC        &kp APOS        &none         &none         &trans
+&none        &kp GRAVE          &kp EXCLAMATION        &kp AT               &kp HASH            &kp DOLLAR        &kp LBRC        &kp RBRC        &kp APOS      &none         &none         &trans
 &none        &kp PERCENT        &kp CARET              &kp AMPERSAND        &kp ASTERISK        &none             &kp LBKT        &kp RBKT        &none         &trans        &trans        &trans
 &none        &none              &none                  &none                &none               &none             &kp LPAR        &kp RPAR        &none         &none         &none         &trans
                                          &none   &none     &none       &trans        &kp ENTER
@@ -71,7 +71,7 @@
         Mouse {
             bindings = <
 &none        &none               &none               &none               &none           &none             &none             &none            &none         &none            &none          &none
-&none        &none               &none               &none               &none           &none             &none             &none            &trans        &trans           &kp HOME       &none
+&none        &none               &none               &none               &none           &none             &none             &none            &trans        &kp END          &kp HOME       &none
 &none        &none               &none               &mkp MCLK           &kp UP          &none             &none             &trans           &none         &none            &bt BT_CLR     &none
 &none        &mkp LCLK           &mkp RCLK           &kp LEFT            &kp DOWN        &kp RIGHT         &none             &none            &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2   &bootloader
                                          &kp LWIN      &mkp LCLK  &mkp RCLK     &trans   &mkp LCLK
