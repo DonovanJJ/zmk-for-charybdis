@@ -80,8 +80,8 @@
             bindings = <
                 &none   &none      &none      &none     &none      &none           &none           &none         &none           &none         &none         &none
                 &none   &none      &none      &none     &none      &none           &kp K_MUTE      &kp C_VOL_DN  &kp C_VOLUME_UP &kp END       &kp HOME      &none
-                &none   &none      &mkp MCLK  &none     &kp UP     &none           &msc SCRL_UP    &trans        &none           &none         &bt BT_CLR    &none
-                &none   &mkp LCLK  &mkp RCLK  &kp LEFT  &kp DOWN   &kp RIGHT       &msc SCRL_DOWN  &none         &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &none
+                &none   &none      &mkp MCLK  &none     &kp UP     &none           &kp K_SCROLL_UP    &trans        &none           &none         &bt BT_CLR    &none
+                &none   &mkp LCLK  &mkp RCLK  &kp LEFT  &kp DOWN   &kp RIGHT       &kp K_SCROLL_DOWN  &none         &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &none
                                     &none     &kp LCTRL  &kp LEFT_WIN  &trans        &mkp RCLK
                                                 &none    &none         &none
             >;
