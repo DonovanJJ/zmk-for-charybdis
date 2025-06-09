@@ -9,7 +9,7 @@
     quick-tap-ms = <150>;
 };
 
-&combos {
+combos {
     compatible = "zmk,combos";
 
     esc_combo {
