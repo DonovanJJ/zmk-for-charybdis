@@ -14,7 +14,7 @@
     combos {
         compatible = "zmk,combos";
 
-        escc {
+        esc_combo {
             bindings = <&kp ESC>;
             key-positions = <13 14>;
             layers = <0>;
@@ -27,6 +27,11 @@
         win_key_combo {
             bindings = <&kp LGUI>;
             key-positions = <50 51>;
+        };
+
+        Tab_combo {
+            bindings = <&kp TAB>;
+            key-positions = <25 26>;
         }; // ENtER and LEFT_SHIFT
     };
 
